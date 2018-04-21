@@ -13,6 +13,25 @@ To create your new Symfony application, first make sure you're using PHP 7.1 or 
 composer create-project symfony/skeleton:4.0.5 blog
 ```
 
+## Install Doctrine bundle & various libraries
+In order to communicate with the database and make use of other features, you need to install several third-party libraries. So run the following commands:
+
+```bash
+composer require symfony/orm-pack
+composer require annotations
+composer require validator
+composer require template
+composer require security-bundle
+composer require --dev maker-bundle
+```
+## Update DotEnv File
+In your root directory, there is a file called .env, you should see something similar to the following:
+```bash
+###> doctrine/doctrine-bundle ###
+DATABASE_URL=mysql://{DATABASE_USER}:{DATABASE_PASSWORD}@{DATABASE_HOST}:{DATABASE_PORT}/{DATABASE_NAME}
+###< doctrine/doctrine-bundle ###
+```
+
 ## Demo symfony project:
 
 https://github.com/symfony/demo
