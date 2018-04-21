@@ -1,4 +1,26 @@
 # Awesome Symfony [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
+To create your new Symfony application, first make sure you're using PHP 7.1 or higher and have Composer installed. If you don't, start by installing Composer globally on your system. If you want to use a virtual machine (VM), check out Homestead.
+
+##Create your new project by running:
+```bash
+ composer create-project symfony/website-skeleton my-project
+```
+
+## If you want specific version:
+
+```bash
+composer create-project symfony/skeleton:4.0.5 blog
+```
+
+## Demo symfony project:
+
+https://github.com/symfony/demo
+```bash
+composer create-project symfony/symfony-demo
+```
+ 
+
 A list of awesome [Symfony](http://symfony.com) bundles, utilities and resources.
 
 Table of contents:
