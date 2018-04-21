@@ -2,7 +2,7 @@
 
 To create your new Symfony application, first make sure you're using PHP 7.1 or higher and have Composer installed. If you don't, start by installing Composer globally on your system. If you want to use a virtual machine (VM), check out Homestead.
 
-##Create your new project by running:
+## Create your new project by running:
 ```bash
  composer create-project symfony/website-skeleton my-project
 ```
