@@ -11,6 +11,7 @@ To create your new Symfony application, first make sure you're using PHP 7.1 or 
 
 ```bash
 composer create-project symfony/skeleton:4.0.5 blog
+composer create-project "symfony/skeleton:^3.3" demo
 ```
 
 ## Install Doctrine bundle & various libraries
