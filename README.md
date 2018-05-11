@@ -44,7 +44,9 @@ https://github.com/symfony/demo
 ```bash
 composer create-project symfony/symfony-demo
 ```
- 
+
+## flashbag and flash messages and twig help:
+https://gitlab.cwd.at/symfony/cwd-standard-edition/blob/6ea87ae2a9443f5ee7ecb326c3f2bdc97822396e/templates/bundles/AvanzuAdminThemeBundle/Layout/simple.html.twig
 
 A list of awesome [Symfony](http://symfony.com) bundles, utilities and resources.
 
